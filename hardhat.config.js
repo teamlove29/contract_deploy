@@ -32,6 +32,7 @@ module.exports = {
   defaultNetwork: "hardhat",
   networks: {
     hardhat: {},
+    mainnet:{},
     rinkeby: {
       url: INFURA_URL,
       accounts: [`0x${PRIVATE_KEY}`],

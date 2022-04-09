@@ -4,10 +4,10 @@ This project demonstrates a basic Hardhat use case. It comes with a sample contr
 
 Try running some of the following tasks:
 
-#### change .env:
-* `INFURA_URL` your url infura
-* `PRIVATE_KEY` your private key
-* `ETHERSCAN_API_KEY` **API** https://etherscan.io/myapikey
+#### Change file .env:
+* `INFURA_URL` Your url infura
+* `PRIVATE_KEY` Your private key
+* `ETHERSCAN_API_KEY` Your API key for Etherscan
 
 
 ```shell
