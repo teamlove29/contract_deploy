@@ -1,0 +1,3 @@
+คำสั่งพื้นฐาน 
+npx hardhat --network rinkeby deploy --tags nft
+npx hardhat verify --network rinkeby  0x000
