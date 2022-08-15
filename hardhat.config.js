@@ -28,11 +28,13 @@ const ETHERSCAN_API_KEY = process.env.ETHERSCAN_API_KEY;
  * @type import('hardhat/config').HardhatUserConfig
  */
 module.exports = {
-  //   defaultNetwork: "rinkeby",
-  defaultNetwork: "hardhat",
+    defaultNetwork: "rinkeby",
+  // defaultNetwork: "hardhat",
   networks: {
     hardhat: {},
-    mainnet:{},
+    // mainnet:{
+
+    // },
     rinkeby: {
       url: INFURA_URL,
       accounts: [`0x${PRIVATE_KEY}`],
@@ -49,7 +51,7 @@ module.exports = {
     // Obtain one at https://etherscan.io/
     apiKey: ETHERSCAN_API_KEY,
   },
-  solidity: "0.8.4",
+  solidity: "0.8.12",
   settings: {
     optimizer: {
       enabled: true,
